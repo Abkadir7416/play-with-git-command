@@ -1,7 +1,1 @@
 first message
-
-
-second commit
-
-
-third commit

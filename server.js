@@ -14,17 +14,8 @@ app.get('/', (req, res) => {
 
 app.get('/first', (req, res) => {
     res.json({ message: 'first commit' });
-});
-
-app.get('/second', (req, res) => {
-    res.json({ message: 'second commit' });
-});
-
-
-app.get('/third', (req, res) => {
-    res.json({ message: 'third commit' });
-});
-
+  });
+  
 
 // Start server
 app.listen(PORT, () => {
