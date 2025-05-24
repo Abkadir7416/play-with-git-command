@@ -8,20 +8,25 @@ app.use(express.json());
 
 // Test route
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to the Express server!' });
+    res.json({ message: 'Welcome to the Express server!' });
 });
 
 
 app.get('/first', (req, res) => {
     res.json({ message: 'first commit' });
-  });
+});
 
-  app.get('/second', (req, res) => {
+app.get('/second', (req, res) => {
     res.json({ message: 'second commit' });
-  });
-  
+});
+
+
+app.get('/third', (req, res) => {
+    res.json({ message: 'third commit' });
+});
+
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
 }); 
