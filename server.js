@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
 app.get('/first', (req, res) => {
     res.json({ message: 'first commit' });
   });
+
+  app.get('/second', (req, res) => {
+    res.json({ message: 'second commit' });
+  });
   
 
 // Start server
